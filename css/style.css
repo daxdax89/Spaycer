@@ -1,0 +1,248 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container{max-width:1170px; margin:0 auto; padding:0;}
+body{ width:100%; margin:0; padding:0;font-family: "arial";}
+
+div{box-sizing:border-box;}
+a,li,ul,span,strong,h1,h2,h3,h4,h5,h6,input,select{ margin:0; padding:0; text-decoration:none; list-style-type:none;box-sizing:border-box;outline: medium none;}
+p{font-size:15px;margin: 15px 0;}
+.clr{ clear:both;}
+.float-100{float: left;width: 100%;}
+a:hover, a:focus{color: #0191da;}
+select{-webkit-appearance: none; -moz-appearance: none; appearance: none;}
+a {color: #fff;text-decoration: none;background-color: rgba(0, 0, 0, 0);}
+* {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: border-box;
+}
+.right-column .views-field.views-field-nothing {
+    text-align: left;
+}
+.header-for-sale .item-list ul li {
+    text-align: center;
+}
+*::before, *::after {
+    box-sizing: border-box;
+}
+*::after, *::before {
+    box-sizing: border-box;
+}
+*::before, *::after {
+    box-sizing: border-box;
+}
+*::after, *::before {
+    box-sizing: border-box;
+}
+/* FONT-FAMILY css*/
+
+@font-face {
+	font-family: 'lora-italic';
+	src:url('../fonts/Lora Italic.eot');
+	src:url('../fonts/Lora Italic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Lora Italic.woff') format('woff'),
+		url('../fonts/Lora Italic.woff2') format('truetype'),
+		url('../fonts/Lora Italic.svg#codropsicons') format('svg');
+}
+@font-face {
+	font-family: 'OpenSans-Regular';
+	src:url('../fonts/OpenSans-Regular-webfont.eot');
+	src:url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
+		url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+		url('../fonts/OpenSans-Regular-webfont.svg#codropsicons') format('svg');
+}
+@font-face {
+	font-family: 'Raleway-Regular';
+	src:url('../fonts/Raleway-Regular_gdi.eot');
+	src:url('../fonts/Raleway-Regular_gdi.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Raleway-Regular_gdi.woff') format('woff'),
+		url('../fonts/Raleway-Regular_gdi.ttf') format('truetype'),
+		url('../fonts/Raleway-Regular_gdi.svg#codropsicons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/* FONT-FAMILY css*/
+
+/***** CSS FOR Homepage Starts here ****/
+header {position:absolute;top: 0;z-index: 999;}	
+.top-header-row{ background:#1F232C;padding:5px 0 9px;}
+.navigation-header{ background:#000000 none repeat scroll 0 0;}
+.top-header-leftblock {display: inline;float: left;}
+.top-header-leftblock a{color: #ffffff; margin-right:15px; opacity:.7;}
+.top-header-leftblock a i{ font-size:14px; padding-right:7px;}
+.top-header-leftblock a span{font-size:11px;}
+.top-header-rightblock a{font-size:11px;color: #ffffff; opacity:.7; text-transform: uppercase; padding: 0 7px;}
+.top-header-rightblock a:last-child{ padding:0;}
+.top-header-rightblock{ display:inline; float:right;}
+#home-page-banner .owl-buttons i {font-size: 30px;font-style: normal;}
+.mobile-menu{ display:none; background: #0191da none repeat scroll 0 0;float: right; height: 40px; width: 40px;}
+.mobile-menu span{background: #ffffff none repeat scroll 0 0; display: block; height: 3px; margin: 3px 0; width: 100%;}
+/***** break ****/
+.site-logo > a {display: block;padding: 5px 0;}
+.site-logo > a img {display: block; max-width:100%;}
+.site-logo{display: inline;float: left;}
+.navigation-bar{ display:inline; float:right;padding: 31px 0;}
+.navigation-bar a{ color:#fff; text-transform:uppercase;font-size: 14px;font-weight: 600;margin-left: 40px;font-family: "arial";opacity: 0.9;}
+#home-page-banner .owl-controls.clickable{ position:absolute; top:50%;width: 100%;}
+#home-page-banner .owl-controls.clickable .owl-next{float: right;margin-right: 60px;opacity: 1;background:rgba(0, 0, 0, 0) url("../img/right-arrow.png") no-repeat scroll 15px center;border: 3px solid #ffffff;text-align: center;height: 50px;line-height: 38px;width: 50px;}
+.book-banner-section{ display:block; position:relative;margin-bottom:160px;}
+#home-page-banner .owl-controls.clickable .owl-prev{background: rgba(0, 0, 0, 0) url("../img/left-arrow.png") no-repeat scroll 12px center;border: 3px solid #ffffff;float: left;height: 50px;line-height: 38px;margin-left: 60px;opacity: 1;text-align: center;width: 50px;}
+.book-office-section > h1 {display: block;font-size: 30px;padding: 0px 0 20px;font-family: 'arial';font-weight: 500;color: #333;}
+.book-office-section { border-top: 5px solid #0191da;display: block; padding:20px 15px 30px;  bottom:50px; background:#fff;-moz-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);-webkit-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);box-shadow: 5px 5px 5px rgba(68,68,68,0.6);}
+.book-banner-section .container{bottom:-140px; left: 0; position: absolute;right: 0; width: 100%;}
+.book-office-submit{ text-align:center;}
+.book-office-submit input{background: #0191da none repeat scroll 0 0; border: 2px solid #0191da; color: #ffffff;font-size: 18px; font-weight: 500; padding: 10px 30px;text-transform: capitalize; cursor:pointer;}
+.book-office-submit input:hover{ background: #ffffff none repeat scroll 0 0;border: 2px solid #0191da;color: #0191da;}
+#home-page-banner .owl-wrapper{ position:relative;}
+.banner-slider-text {left: 0; position: absolute;right: 0; top:45%;}
+.banner-slider-text h1{font-family: 'arial';font-weight: 600; font-size: 50px; color:#fff;text-align: center;text-transform: uppercase;}
+.banner-slider-text p{font-size: 18px; font-weight: 700; display: block;line-height: 25px;color:#fff; margin: 0 auto; max-width: 40%;text-align: center;}
+.booking-form.float-100 { padding:5px 25px 30px;}
+.booking-form label{display: block;float: left; font-size: 14px;font-weight: 600;text-transform: capitalize;width: 100%;color: #333;}
+.fisrt-booking-block { float: left;width: 35%; padding-right: 5%;}
+.book-office-section .fisrt-booking-block select{background :rgba(0, 0, 0, 0) url("../img/map-arrow.png") no-repeat scroll 97% center;height:50px; padding:0 10px;}
+.second-booking-block{ float: left;width: 45%; margin-top:-12px;}
+.timimg-block{font-size: 14px;text-transform: capitalize; width:100%; float:left;}
+.timimg-block input{ margin-right:10px;	}
+.timimg-block label{ display:inline; width:auto; margin-right: 30px;}
+.timimg-block label span { margin-right: 20px !important;}
+.booking-form .time-function{background: rgba(0, 0, 0, 0) url("../img/clock.png") no-repeat scroll 97% center; margin-right: 5%;padding:0 10px;height:50px;
+    width: 45%;}
+.third-booking-block{width:20%; float:left; padding-left:3%;}
+.booking-form select, .booking-form input{border: 1px solid #dddddd;color: #777777;display: block; float: left; font-size: 14px; font-weight: 600;margin-top: 7px;padding:15px 10px;width: 100%;font-family: "arial";}
+.booking-form select:hover, .booking-form input:hover, .booking-form select:focus, .booking-form input:focus{ border:1px solid #0191da;}
+/***** break ****/
+.office-map-header {border-bottom: 2px solid #cccccc;padding:45px 15px 5px;}
+.office-map-header h1{ font-size:26px;text-transform: uppercase;display: inline;font-family: "arial";font-weight: 500; color:#333;}
+.office-map-header > span {font-family: 'Raleway-Regular'; background:rgba(0, 0, 0, 0) url("../img/map.png") no-repeat scroll 0 0 / 100% 100%;color: #ffffff;border-bottom: 1px solid #cccccc; font-size:26px; font-weight: 600;padding:5px 10px;text-transform: uppercase; margin-left: 30px;}
+.office-map-header > a {border: 2px solid #777;color: #000000;display: inline; float: right; font-size: 15px; padding: 4px 6px;}
+.office-map-block {padding: 30px 0;}
+
+
+/***** break ****/
+.spaycer-app-download.float-100 {background: #f1f1f1 none repeat scroll 0 0;}
+.app-download-block {padding: 75px 0 0;}
+.app-download-leftblock {float: left;width: 35%;display: block;}
+.app-download-leftblock > img {display: block;max-width: 100%;}
+.app-download-rightblock {float:right;width:65%;display: block;padding:140px 0 0;}
+.app-download-rightblock > h1 {font-size: 36px;font-family: 'lora-italic';font-weight: 600;}
+.app-download-rightblock > h1 span{ font-size:55px; display:block;font-weight: 500;padding: 30px 0;font-family:"arial";}
+.app-download-rightblock strong{ width:100%; float:left;}
+.app-download-rightblock strong img{margin-right: 25px;}
+.app-download-rightblock strong img:last-child{ margin:0;}
+/***** break ****/
+.spaycer-testimonials { padding:70px 0;}
+.spaycer-testimonials h3{position:relative;}
+.spaycer-testimonials h3 em{color: #333;display:block;font-style:normal;font-size: 30px; font-weight:500; text-transform: uppercase; position:relative; text-align:center;line-height: 45px; font-family:"arial";}
+.spaycer-testimonials h3 span{background: #0191da none repeat scroll 0 0;display:block;height: 4px;margin: 0 auto;width: 80px;}
+.spaycer-testimonials h4{font-size: 16px;font-weight: normal;padding: 35px 0;text-align: center; color: #777777;}
+#testimonial-block .owl-item{ padding-right:30px;}
+#testimonial-block .owl-item p{color: #888;font-size: 21px;font-weight: 100;word-spacing: 5px;padding: 0 15px; display: block; float:left;font-family: lora-italic;}
+.user-details{float: left;padding: 35px 0 0; width: 100%;}
+.user-details-right-block > h1{font-size: 16px;font-weight: normal;color: #333333;}
+.user-details-right-block > h2{font-weight: normal;font-size: 14px;color: #999999;}
+.user-details-left-block{display: block;float: left; width: 70px;}
+.user-details-right-block{display: inline;float: left;padding: 12px 0 12px 15px;}
+#home-page-banner .item img{display: block;max-width: 100%;height: auto;}
+#testimonial-block .item{margin: 3px;float: left;}
+#testimonial-block .item img{display: block;max-width: 100%;border-radius: 50%;}
+
+/***** break ****/
+footer{ background:#262626; padding:40px 0 50px;}
+.footer-custom-blocks{ width:25%; float:left; padding:15px;}
+.footer-custom-blocks.footer-newsletter > p {color: #ffffff;font-size: 13px; margin: 5px 0; opacity: 0.8;}
+.book-newsletter-submit input{background: #0191da none repeat scroll 0 0; border: 2px solid #0191da; color: #ffffff; cursor: pointer; font-size: 16px;
+    font-weight: 500;padding: 4px 15px;text-transform: capitalize; margin:10px 0 0;}
+.footer-social p{ font-size:12px; color:#fff;margin: 20px 0;float: left; font-family:"arial";}
+.footer-social .social-icons li a i{ color:#fff;}
+.footer-social .social-icons li{background: #0191da none repeat scroll 0 0;border-radius: 50%;float: left;height: 30px;line-height: 30px;margin: 0 5px; text-align: center;width: 30px;}
+.footer-page-links li a{ text-transform:capitalize; font-size:12px;}
+.footer-newsletter label {font-size:12px; color:#fff;}
+.footer-custom-blocks.footer-newsletter > input {background: #121212 none repeat scroll 0 0;border: 1px solid #000000;color: #ffffff;font-size: 14px;
+    height: 38px;margin: 6px 0;padding: 0 15px;width: 100%;}
+.footer-help-block h1, .footer-newsletter h1{ padding:20px 0 10px;font-size:24px;color:#fff;font-weight: normal;text-transform: capitalize;font-family: 'Raleway-Regular'; }
+.footer-logo-image.float-100 > img { max-width: 150px;}
+.footer-page-links { padding-top: 30px;}
+.footer-help-block span{ color:#ED8220; font-size:24px;margin: 10px 0;display: block;}
+.footer-help-block p{ color:#fff; font-size:12px;font-family:"arial";}
+/***** CSS FOR Homepage Ends here ****/
+
+input[type=checkbox]:not(old),
+input[type=radio   ]:not(old){
+  width     : 2em;
+  margin    : 0;
+  padding   : 0;
+  font-size : 1em;
+  opacity   : 0;
+}
+
+input[type=checkbox]:not(old) + label,
+input[type=radio   ]:not(old) + label{
+  display      : inline-block;
+  margin-left  : -2em;
+  line-height  : 26px;
+}
+
+input[type=checkbox]:not(old) + label > span,
+input[type=radio   ]:not(old) + label > span{
+  display          : inline-block;
+  width            : 20px;
+  height           : 20px;
+  margin           : 0.25em 0.5em 0.25em 0.25em;
+  border           : 0.0625em solid rgb(1, 145, 218);
+  border-radius    : 0.25em;
+  background       : rgb(224,224,224);
+  background-image :    -moz-linear-gradient(rgb(240,240,240),rgb(224,224,224));
+  background-image :     -ms-linear-gradient(rgb(240,240,240),rgb(224,224,224));
+  background-image :      -o-linear-gradient(rgb(240,240,240),rgb(224,224,224));
+  background-image : -webkit-linear-gradient(rgb(240,240,240),rgb(224,224,224));
+  background-image :         linear-gradient(rgb(240,240,240),rgb(224,224,224));
+  vertical-align   : bottom;
+}
+
+input[type=checkbox]:not(old):checked + label > span,
+input[type=radio   ]:not(old):checked + label > span{
+  background-image :    -moz-linear-gradient(rgb(224,224,224),rgb(240,240,240));
+  background-image :     -ms-linear-gradient(rgb(224,224,224),rgb(240,240,240));
+  background-image :      -o-linear-gradient(rgb(224,224,224),rgb(240,240,240));
+  background-image : -webkit-linear-gradient(rgb(224,224,224),rgb(240,240,240));
+  background-image :         linear-gradient(rgb(224,224,224),rgb(240,240,240));
+}
+
+input[type=checkbox]:not(old):checked + label > span:before{
+  content     : '✓';
+  display     : block;
+  width       : 19px;
+  color       : #0191da;
+  font-size   : 13px;
+  line-height : 18px;
+  text-align  : center;
+  text-shadow : 0 0 0.0714em rgb(1, 145, 218);
+  font-weight : bold;
+}
+
+input[type=radio]:not(old):checked +  label > span > span{
+  display          : block;
+  width            : 0.5em;
+  height           : 0.5em;
+  margin           : 0.125em;
+  border           : 0.0625em solid rgb(1, 145, 218);
+  border-radius    : 0.125em;
+  background       : rgb(153,204,102);
+  background-image :    -moz-linear-gradient(rgb(179,217,140),rgb(153,204,102));
+  background-image :     -ms-linear-gradient(rgb(179,217,140),rgb(153,204,102));
+  background-image :      -o-linear-gradient(rgb(179,217,140),rgb(153,204,102));
+  background-image : -webkit-linear-gradient(rgb(179,217,140),rgb(153,204,102));
+  background-image :         linear-gradient(rgb(179,217,140),rgb(153,204,102));
+}
+.third-booking-block .member-no {height: 50px;padding: 0 10px; cursor:pointer;background: rgba(0, 0, 0, 0) url("../img/drop-down-arrow.png") no-repeat scroll 99% center;}
+.book-office-section .third-booking-block input[type=number]::-webkit-inner-spin-button, .book-office-section .third-booking-block input[type=number]::-webkit-outer-spin-button{margin: 0;overflow: hidden; -moz-appearance: none; -webkit-appearance: none;appearance: none; padding:0 10px; height:50px;}
+.book-office-section .third-booking-block input[type=number] {-moz-appearance:textfield;}
+.book-office-section .third-booking-block input[type="number"]:hover, .book-office-section .third-booking-block input[type="number"]:focus {-moz-appearance: number-input;}

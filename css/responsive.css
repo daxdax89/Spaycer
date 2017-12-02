@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width: 370px){
+	.app-download-block .app-download-rightblock strong img{max-width: 115px;}
+	.banner-slider-text, #home-page-banner .owl-controls.clickable{top: 25% !important;}
+	.top-header-leftblock, .top-header-rightblock{ width:100%;}
+	.top-header-leftblock, .top-header-rightblock{ text-align:center;}
+	.banner-slider-text p{font-size: 14px;max-width: 75%;line-height: 18px;}
+	.banner-slider-text h1{font-size:24px;}
+	.banner-slider-text{top: 40%;}
+	 #home-page-banner .owl-controls.clickable{top: 40%;}
+	 .app-download-leftblock{ width:100%;}
+	 .app-download-rightblock{ width:100%;}
+	 .app-download-rightblock > h1{ font-size: 24px;}
+	 .app-download-rightblock > h1 span{ padding: 25px 0; font-size: 40px;}
+}
+@media (min-width:480px) and (max-width:767px) {
+	.app-download-rightblock > h1{font-size: 21px;}
+	.app-download-rightblock > h1 span{font-size: 36px;padding: 5px 0;}
+	.app-download-block .app-download-rightblock strong img {max-width: 115px;}
+	.banner-slider-text p{max-width: 60%;}
+	.banner-slider-text h1{font-size:40px;}
+	.banner-slider-text{top: 27%;}
+	 #home-page-banner .owl-controls.clickable{top: 38%;}
+}
+@media screen and (max-width: 767px) {
+	.mobile-menu{ display: block; position: absolute; right: 20px; top: 24px;padding: 10px; cursor:pointer;}
+	.navigation-bar a:hover{ text-decoration:underline;}
+	.navigation-header{position:relative;}	
+	#home-page-banner .owl-controls.clickable .owl-prev{ margin-left:10px;height: 30px; width:30px; background:rgba(0, 0, 0, 0) url("../img/left-arrow.png") no-repeat scroll 2px 5px;}
+	#home-page-banner .owl-controls.clickable .owl-next{margin-right:10px;height: 30px; width:30px; background:rgba(0, 0, 0, 0) url("../img/right-arrow.png") no-repeat scroll 7px 3px;}	
+	.office-map-header > span{ font-size:20px;}
+	.book-office-section > h1{font-size: 24px;}
+	.booking-form.float-100{padding: 5px 0 30px;}
+	header{position: static;}	
+	.footer-custom-blocks{ width:100%;}	
+	.site-logo > a img {left: -25px;position: relative;}
+	.site-logo{ width:100%;}
+	.navigation-bar{background: #0191da none repeat scroll 0 0;display: none;padding: 4px 0 7px;position: absolute; right: 0; text-align: center;top: 84px;width: 100%;z-index: 9;}
+	.navigation-bar a{ font-size: 12px;margin: 0 10px 0 0;}
+	.app-download-rightblock{padding:30px 15px 2px;}
+	.container{max-width:767px;padding:0 15px;}
+	.app-download-rightblock strong img{ max-width:150px;}
+	.office-map-header > h1 {float: left;margin: 0 0 30px;width: 100%;}
+	.book-banner-section .container{ position:relative; bottom:0;}
+	.book-banner-section{margin-bottom: 10px;}
+	.fisrt-booking-block, .second-booking-block, .third-booking-block{ width:100%; margin:20px 0 0; padding:0;}
+}
+@media (min-width:768px) and (max-width:991px) {
+	.book-banner-section .container{ position:relative; bottom:0;}
+	.book-banner-section{margin-bottom: 10px;}
+	.container{ padding:0 15px;}
+	.app-download-rightblock{ padding:60px 15px 0;}
+	.footer-social .social-icons li{ margin:0 2px; line-height:25px; width:25px; height:25px;}
+	.footer-help-block h1, .footer-newsletter h1{font-size: 20px;}
+	.footer-help-block span{font-size: 16px;}
+	.timimg-block label{ margin-right:10px;}
+	.fisrt-booking-block{ padding-right:2%;}
+	.booking-form.float-100{padding: 5px 0 30px;}
+	.third-booking-block{ padding-left:0;}
+}
+@media (min-width:992px) and (max-width:1199px) {
+	.container{ padding:0 15px;}
+	.app-download-rightblock{ padding:100px 15px 0;}
+}
